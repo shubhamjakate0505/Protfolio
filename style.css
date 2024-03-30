@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image:url("./img/yoshiko-evanka-oI90dywodT8-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* color: #fff; */
+}
+.header{
+    color: #fff;
+}
+.navbar{
+    
+    margin-top: 30px;
+    position: relative;
+}
+.navbar a{
+    color: white;
+   
+}
+.container a{
+    font-size: 60px;
+    font-weight: 600;
+}
+.container a:hover{
+    color: white;
+}
+
+
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-nav a{
+    font-size: 22px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-nav a:hover{
+    color: #87CEEB;
+}
+
+.navbar-toggler-icon{
+   background-color: wheat;
+}
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nav-link{
+    margin-left: 1.2rem;
+}
+.header-content h3{
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 550;
+    /* background-color: black; */
+}
+.header-content h1{
+    font-size: 75px;
+    
+    font-weight: 600;
+    /* background-color: black; */
+}
+.btn-cu{
+    margin-top: 40px;
+    
+}
+span{
+    color: #87CEEB;
+}
+
+.btn-cu{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #87CEEB;
+}
+
+.btn-cu:hover{
+    background-color: #87CEEB;
+}
+/* -----------------about------------------- */
+
+.about{
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    height: 650px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+.about-header{
+    text-align: center;
+}
+.cl{
+    display: flex;
+    justify-content: center;
+}
+.cl-1{
+    position: relative;
+    margin-bottom: 0px;
+    background-color: black;
+    height: 2px;
+    top: 20px;
+    font-weight: 600;
+    width: 40px;
+}
+
+.about-text{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.text-content{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-content{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-content img{
+    display: block;
+
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+/* ------- */
+.Service{
+    padding: 100px 0px;
+    border: 1px solid green;
+    height: 650px;
+    margin-top: 125px;
+    background-color: black;
+}
+
+.service-container h2{
+    color: white;
+}
+.service-info{
+    
+    text-align: center;
+    padding: 90px 30px;
+    color: white;
+}
+.service-info i{
+    font-size: 55px;
+    padding-bottom: 40px;
+}
+.service-info p{
+    padding-top: 12px;
+    font-size: 30px;
+}
+.service-info h2{
+    font-size: 40px;
+}
+/* -------- */
+
+.About-Skills{
+    background-color: white;
+
+    height: 680px;
+    width: 100px;
+    color: black;
+}
+.skils-container{
+    padding: 100px 0px;
+}
+
+
+.skills-know{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.lang{
+    display: flex;
+    padding:50px;
+    justify-content:space-between;
+}
+.lang div{
+    margin-left: 20px;
+    justify-content: space-evenly;
+} 
+.html{
+   font-size: 70px;
+}
+.css{
+    font-size: 70px;
+}
+.js{
+    font-size: 70px;
+}
+.know{
+    text-align: left;
+}
+.descriptin h1{
+    text-align: start;
+}
+.about-description{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skills-list{
+    margin-top: 20px;
+    list-style: none;
+    line-height: 25px;
+    font-size: 20px;
+    padding-inline-start: 0;
+    text-align: left;
+}
+.skills-list li{
+
+    margin-top: 12px;
+}
+.skills-list li::marker {
+    content: '☑';
+    color: skyblue;
+}
+/* -------- */
+.Project{
+    height: 800px;
+    padding-top: 40px;
+    
+    background-color: black;
+    color: white;
+}
+.project-container{
+    height: 650px;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    /* background-color: gray; */
+    /* border: 1px solid red; */
+}
+
+/* ------------------------ */
+.contact-container{
+    margin-top: 40px;
+    /* margin-bottom:50px; */
+
+}
+.container-body{
+    margin-top: 50px;
+}
+.contact-text{
+    margin-top: 15px;
+}
+.contact-text .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.column .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+.contact-text .row{
+    display: flex;
+    height: 65px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.get h1{
+    font-size: 20px;
+}
+.get p{
+    font-size:16px;
+}
+.con-name{
+    display: flex;
+    align-items: center;
+    line-height: 0%;
+    padding: 9px;
+}
+.iconc i{
+    /* border: 1px solid pink; */
+    font-size: 20px;
+    color: skyblue;
+    /* padding-left: 50px; */
+}
+.iconc{
+    margin-right: 15px;
+    
+}
+.name h1{
+    font-size: 16px;
+    
+}
+.name p{
+    /* line-height: 4px; */
+    
+    font-size: 16px;
+    margin-top: 10px;
+}
+.container-body{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+
+}
+.column{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+footer{
+    background: #111;
+    margin-top: 40px;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: #fff;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+    color: skyblue;
+}
+footer .icons{
+    padding-top: 0.8rem;
+    padding-bottom: 0.2rem;
+}
+
+footer .icons a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0.2rem;
+    color: #f4f4f4;
+}
+footer .icons a:hover{
+    color: skyblue;
+}
